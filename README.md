@@ -1,7 +1,7 @@
 # SlickText Evaluation Project
 
 ## Users
-The class which defines the User model is: `Models/User.php`.
+The class which defines the User model is: `App/Models/User.php`.
 
 ## Database
 1. Create a database for the project, and create the users table as provided in the supplied project notes.
