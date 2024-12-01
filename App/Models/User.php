@@ -163,7 +163,7 @@ class User
 
             $location = '/';
         }
-        Route::redirect('/');
+        Route::redirect($location);
     }
 
     /**
