@@ -1,0 +1,54 @@
+body {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+header p,
+main {
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.btn {
+    font-weight: 600;
+    padding: 1em;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+
+    @media screen and (min-width: 768px) {
+        justify-content: flex-start;
+    }
+}
+
+.form-buttons .btn {
+    width: 48%;
+
+    @media screen and (min-width: 768px) {
+        margin-right: 27px;
+        min-width: 205px;
+        width: unset;
+    }
+}
+
+.btn-primary {
+    background-color: #4955e4;
+}
+
+.btn-outline-light {
+    background-color: #fff;
+    border-color: #d8dadf;
+    color: #878e96;
+}
+.details {
+    font-family: arial, sans-serif;
+    font-weight: normal;
+}
+button {
+    background-color: transparent;
+}
