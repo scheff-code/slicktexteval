@@ -8,7 +8,7 @@ The class which defines the User model is: `Models/User.php`.
 2. For the simplicity of the eval, simply plug the db credentials into the \App\Models\DB __construct() method. Usually, these would be in an environment file so that each instance could use distinct parameters.
 
 
-#Notes
+## Notes
 The document root of the project is: `public/`
 
 
